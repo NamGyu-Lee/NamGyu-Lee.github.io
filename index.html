@@ -1,18 +1,14 @@
 ---
-layout: default
+layout: homepage
+title: Mere Blog Theme
+subtitle: This is the demo site for the Mere Blog Theme
+image: /img/home.jpg
+hero_image: /img/home.jpg
+hero_height: is-large
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+## Mere Blog Theme
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+Mere is a minimal and simple blog theme, and nothing more, for use with Jekyll and GitHub Pages.
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+This is the homepage, it has some space at the top to display your introduction text and then it displays the latest 6 posts below.
